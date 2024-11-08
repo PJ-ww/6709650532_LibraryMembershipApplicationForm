@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>แบบแบบฟอร์มการสมัครสมาชิกห้องสมุด</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header><h2>แบบแบบฟอร์มการสมัครสมาชิกห้องสมุด</h2></header>
+    <nav><center><img src="book.jpg" alt=""></center></nav>
+    <form>
+        <fieldset>
+            <legend>Information</legend>
+
+            <label for="name">Name - Surname :</label><br>
+            <input type="text" id="name" name="name" size="35" required><br><br>
+
+            <label for="name">ชื่อ - นามสกุล :</label><br>
+            <input type="text" id="name" name="name" size="35" required><br><br>
+
+            <label for="gender">เพศ :</label><br>
+            <input type="radio" id="male" name="gender" value="male" required>ชาย <br>
+            <input type="radio" id="female" name="gender" value="female">หญิง <br>
+            <input type="radio" id="none" name="gender" value="none">ไม่ระบุ <br><br>
+
+            <label for="name">รหัสนักศึกษา :</label><br>
+            <input type="text" id="number" name="รหัสนักศึกษา" pattern="[0-9]+" maxlength="10" required><br><br>
+
+            <label for="faculty">คณะที่ศึกษา :</label><br>
+            <input type="search" id="faculty" name="faculty" size="35" required><br><br>
+
+            <label for="email">ที่อยู่อีเมล (E-mail address) :</label><br>
+            <input type="email" id="email" name="email" size="35" required><br><br>
+
+            <label for="date">วัน/เดือน/ปี เกิด :</label><br>
+            <input type="date" id="date" name="date" required><br><br>
+
+            <label for="bookgenre">ประเภทของหนังสือทสือที่สนใจ :</label><br>
+            <input type="checkbox" id="bookgenre" name="bookgenre" value="ความรู้ทั่วไป"> ความรู้ทั่วไป (Generalities)<br>
+            <input type="checkbox" id="bookgenre" name="bookgenre" value="ปรัชญา"> ปรัชญา (Philosophy) <br>
+            <input type="checkbox" id="bookgenre" name="bookgenre" value="ศาสนา"> ศาสนา (Religion) <br>
+            <input type="checkbox" id="bookgenre" name="bookgenre" value="วรรณคดี"> วรรณคดี (Literature) <br>
+            <input type="checkbox" id="bookgenre" name="bookgenre" value="ภาษาศาสตร์"> ภาษาศาสตร์ (Language) <br>
+            <input type="checkbox" id="bookgenre" name="bookgenre" value="วิทยาศาสตร์"> วิทยาศาสตร์ (Science) <br>
+            <input type="checkbox" id="bookgenre" name="bookgenre" value="เทคโนโลยี"> เทคโนโลยี (Technology) <br>
+            <input type="checkbox" id="bookgenre" name="bookgenre" value="ศิลปกรรมและการบันเทิง"> ศิลปกรรมและการบันเทิง (Arts and recreation) <br>
+            <input type="checkbox" id="bookgenre" name="bookgenre" value="ประวัติศาสตร์และภูมิศาสตร์"> ประวัติศาสตร์และภูมิศาสตร์ (History and geography) <br>
+            <input type="checkbox" id="bookgenre" name="bookgenre" value="สังคมศาสตร์"> สังคมศาสตร์ (Social sciences) <br>
+            <input type="checkbox" id="bookgenre" name="bookgenre" value="นิยาย"> นิยาย/วรรณกรรม (Contenmporary) <br>
+            <input type="checkbox" id="bookgenre" name="bookgenre" value="การ์ตูน" > การ์ตูน (Cartoon) <br>
+            <input type="checkbox" id="bookgenre" name="bookgenre" value="แฟนตาซี"> แฟนตาซี (Fantasy) <br>
+            <input type="checkbox" id="bookgenre" name="bookgenre" value="โรแมนติก"> โรแมนติก (Romance) <br>
+            <input type="checkbox" id="bookgenre" name="bookgenre" value="ลึกลับ"> ลึกลับ (Mystery) <br>
+            <input type="checkbox" id="bookgenre" name="bookgenre" value="ระทึกขวัญ"> ระทึกขวัญ (Thriller) <br>
+            <input type="checkbox" id="bookgenre" name="bookgenre" value="สืบสวนสอบสวน"> สืบสวนสอบสวน (Suspense) <br><br>
+
+
+            <label for="option">ต้องการรับข่าวสารข้อมูลของห้องสมุดทางอีเมลหรือไม่ (yes/no)</label><br>
+            <input type="radio" id="option" name="option" value="ต้องการ" required> ต้องการ (yes) <br>
+            <input type="radio" id="option" name="option" value="ไม่ต้องการ"> ไม่ต้องการ (no) <br><br>
+
+        </fieldset>
+            <br><br>
+            <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
