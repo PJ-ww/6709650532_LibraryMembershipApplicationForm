@@ -12,19 +12,30 @@ fieldset,label,legend,input{
 header h2{
     background-color: #A79277;
     background: url(https://i.pinimg.com/236x/26/59/88/265988df777bac5ab0c572989096a8c0.jpg);
-    height: 50px;
+    height: 100%;
     text-align: center;
-    padding-top: 15px;
+    padding: 20px;
     color: white;
+}
+
+header{
+    width: 100%;
 }
 
 nav center{
     padding: 20px;
-    height: 330px;
+    height: 100%;
     background-color: #D1BB9E; 
     background: url(https://i.pinimg.com/236x/bd/93/a2/bd93a2f8180b5bcde8110dcf7c9b0d50.jpg);
 }
 
 form{
     padding: 20px;
+    height: 100%;
+}
+
+@media (max-width:800px) {
+    .book{
+        width: 350px;
+    }
 }
