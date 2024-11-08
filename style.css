@@ -1,0 +1,30 @@
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #D1BB9E;
+    margin: 0;
+    color: #776B5D;
+}
+
+fieldset,label,legend,input{
+    background-color: white;
+}
+
+header h2{
+    background-color: #A79277;
+    background: url(https://i.pinimg.com/236x/26/59/88/265988df777bac5ab0c572989096a8c0.jpg);
+    height: 50px;
+    text-align: center;
+    padding-top: 15px;
+    color: white;
+}
+
+nav center{
+    padding: 20px;
+    height: 330px;
+    background-color: #D1BB9E; 
+    background: url(https://i.pinimg.com/236x/bd/93/a2/bd93a2f8180b5bcde8110dcf7c9b0d50.jpg);
+}
+
+form{
+    padding: 20px;
+}
